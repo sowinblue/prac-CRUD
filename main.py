@@ -14,7 +14,7 @@ def addcreate_m(addtext):
 
 
 def delete_m(deletetext):
-    with open("to_minamkong.txt","w",encoding="utf-9") as f:
+    with open("to_minamkong.txt","w",encoding="utf-8") as f:
         f.write(" ")
         print("메세지 삭제")
 
@@ -25,4 +25,5 @@ addcreate_m("\n...")
 addcreate_m("\n여기까지 하겠습니다.")
 addcreate_m("\n하하하")
 
+delete_m(" ")
 
