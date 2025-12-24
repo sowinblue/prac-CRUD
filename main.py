@@ -1,0 +1,1 @@
+file_name = "to_minamkong.txt"
