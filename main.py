@@ -15,3 +15,5 @@ def addcreate_m(addtext):
 
 newcreate_m("안녕하세요 강사님")
 addcreate_m("\n근데 제가 드릴 말씀이 있습니다")
+addcreate_m("\n...")
+addcreate_m("\n여기까지 하겠습니다.")
