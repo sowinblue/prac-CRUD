@@ -7,10 +7,11 @@ def newcreate_m(text):
 
 
 
-# def addcreate_m(addtext):
-#     with open("to_ninamkong","r",enconding="utf-8") as f:
-#         f.write(addtext)
-#         print("메세지 추가")
+def addcreate_m(addtext):
+    with open("to_minamkong.txt","a", encoding="utf-8") as f:
+        f.write(addtext)
+        print("메세지 추가")
 
 
 newcreate_m("안녕하세요 강사님")
+addcreate_m("\n근데 제가 드릴 말씀이 있습니다")
